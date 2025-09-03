@@ -97,10 +97,10 @@ function App() {
           type: "expert"
         },
         {
-          title: "Resource and Energy Constraints",
-          description: "GPU shortages, rising energy costs, and environmental impact concerns are creating significant barriers to continued AI scaling through 2026.",
-          source: "Bain & Company, Guardian Reports",
-          strength: "secondary",
+          title: "Critical Infrastructure Bottlenecks",
+          description: "H100 GPUs cost $25,000-$40,000 each with 4-8 month lead times, while Gartner predicts 40% of AI data centers will face power shortages by 2027. AI training demands up to 1 GW per facility by 2028 (equivalent to a nuclear reactor), but grid connections take 4-7 years. GPT-4 training alone consumed 50 GWh and generated 14,994 tons of CO₂—equivalent to 300 NYC-SF flights.",
+          source: "Gartner 2024, Goldman Sachs, MIT Research",
+          strength: "primary",
           type: "data"
         }
       ]
