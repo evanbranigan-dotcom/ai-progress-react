@@ -134,7 +134,7 @@ function App() {
               {selectedCategory === category.title && (
                 <div className="arguments">
                   {category.arguments
-                    .sort((a, b) => (a.strength === 'primary' ? -1 : 1))
+                    .sort((a) => (a.strength === 'primary' ? -1 : 1))
                     .map((argument, argIndex) => (
                     <div key={argIndex} className={`argument ${argument.strength}`}>
                       <div className="argument-header">
